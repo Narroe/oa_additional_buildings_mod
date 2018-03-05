@@ -90,7 +90,7 @@
                 "4": "f_datura"
             },
             "items":{
-            "C": {"item": "ga_items_1", "chance":80}
+                "C": {"item": "ga_items_1", "chance":80}
             },
             "place_items":[
                 {"item": "ga_items_1", "chance": 80, "x":12, "y":21},
