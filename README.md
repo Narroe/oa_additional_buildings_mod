@@ -1,4 +1,4 @@
-Oa's additional buildings mod (version 1.0)
+Oa's additional buildings mod
 
 Adds 10 more buildings into the game, including 2 multiple Z-level buildings.
 
