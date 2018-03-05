@@ -1,19 +1,19 @@
 [
-	{
-		"type": "region_overlay",
-		"id": "oa_additional_buildings_overlay",
-		"regions": [ "all" ],
-		"city": { 
-			"shops": {
-				"//":"to remove any buildings from generating: set to 0",
-				"s_gardening_allotment": 1,
-				"s_city_dump_small": 1,
-				"s_internet_cafe": 1,
-				"s_market_small": 1,
-				"s_open_sewer": 1,
-				"s_private_park": 1,
-				"s_sex_shop": 1
-			} 
-		}
-	}
+    {
+        "type": "region_overlay",
+        "id": "oa_additional_buildings_overlay",
+        "regions": [ "all" ],
+        "city": { 
+            "shops": {
+                "//":"to remove any buildings from generating: set to 0",
+                "s_gardening_allotment": 1,
+                "s_city_dump_small": 1,
+                "s_internet_cafe": 1,
+                "s_market_small": 1,
+                "s_open_sewer": 1,
+                "s_private_park": 1,
+                "s_sex_shop": 1
+            }
+        }
+    }
 ]
