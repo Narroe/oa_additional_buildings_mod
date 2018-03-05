@@ -1,0 +1,47 @@
+[
+	{
+		"type" : "overmap_special",
+		"id" : "oa_hunter_camp_place",
+		"overmaps" : [
+			{ "point":[0,0,0], "overmap": "oa_hunter_camp_north"}
+		],
+		"locations" : [ "wilderness" ], 	"//":"what special locations does it spawn",
+		"city_distance" : [20, 25], 		"//":"how far from a city it should be",
+		"city_sizes" : [1, 12], 			"//":"what city sizes should it spawn in",
+		"occurrences" : [1, 3], 			"//":"how many per overmap",
+		"rotate" : true, 					"//":"allow rotation",
+		"flags" : [ "CLASSIC" ]
+	},
+	
+	{
+		"type" : "overmap_special",
+		"id" : "oa_giant_sinkhole",
+		"overmaps" : [
+			{ "point":[0,0,0], "overmap": "giant_sinkhole_1_north"},
+			{ "point":[0,0,-1], "overmap": "giant_sinkhole_2_north"}
+		],
+		"locations" : [ "wilderness" ], 	"//":"what special locations does it spawn",
+		"city_distance" : [15, 25], 		"//":"how far from a city it should be",
+		"city_sizes" : [1, 12], 			"//":"what city sizes should it spawn in",
+		"occurrences" : [1, 2], 			"//":"how many per overmap",
+		"rotate" : true, 					"//":"allow rotation",
+		"flags" : [ "CLASSIC" ]
+	},
+	
+	{
+		"type" : "overmap_special",
+		"id" : "oa_fire_watch_tower",
+		"overmaps" : [
+			{ "point":[0,0,0], "overmap": "watch_tower_base_north"},
+			{ "point":[0,0,1], "overmap": "watch_tower_f1_north"},
+			{ "point":[0,0,2], "overmap": "watch_tower_f2_north"},
+			{ "point":[0,0,3], "overmap": "watch_tower_f3_north"}
+		],
+		"locations" : [ "wilderness" ], 	"//":"what special locations does it spawn",
+		"city_distance" : [20, 25], 		"//":"how far from a city it should be",
+		"city_sizes" : [1, 12], 			"//":"what city sizes should it spawn in",
+		"occurrences" : [1, 2], 			"//":"how many per overmap",
+		"rotate" : true, 					"//":"allow rotation",
+		"flags" : [ "CLASSIC" ]
+	}
+]

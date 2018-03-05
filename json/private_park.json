@@ -1,0 +1,108 @@
+[
+	{
+		"type": "mapgen",
+		"method": "json",
+		"om_terrain": [ "s_private_park" ],
+		"weight": 1000,
+		"object": {
+			"rows": [
+				"xxxxxxxxxsxxxxxxxxxxxxxx",
+				"WWWWWWWWWWWXXWWWWWWWWWWW",
+				"W.......T.PxxP..o.p..p.W",
+				"W.f..p.f..oxxo..f..T...W",
+				"W..Y..p...oxxo.A.~.dp.AW",
+				"Wo..T....T.xx.d.p..f...W",
+				"W..f.Y.f..dxxxxxxxx.T..W",
+				"W~...d.~.Y.xxxxxxxx..Y.W",
+				"WP..T.wwwwwwwff.pxxY...W",
+				"W.f.AwwwwwwwwwwwAxx..p.W",
+				"W.d.xxxxxxxxxxxxxxx....W",
+				"W~.Txxxxxxxxxxxxxxx.T..W",
+				"W...xxwwwwwwwwwwwfY..p.W",
+				"W.f.xxAwwwwwwwwwA..Y.d.W",
+				"W.Y.xx..wwwwwwwf.Tf.p..W",
+				"W.d.xx.Y..T.wwT.f...A.pW",
+				"W..dxx...Y...p....~.T..W",
+				"Wdddxxd~o~......P.fY...W",
+				"WzzzDDzzzo.T..f....o..oW",
+				"WazS,,,Lz~.Y..pY..d.T..W",
+				"W,,,,,21G...f....T.....W",
+				"WtzBE,,1z@@T...P...Y..YW",
+				"WWWWWWWWWWWWWWWWWWWWWWWW",
+				"........................"
+			],
+			"terrain": {
+				"w": "t_water_dp",
+				".": "t_grass",
+				"p": "t_grass",
+				"o": "t_grass",
+				"@": "t_grass",
+				"f": "t_grass",
+				"d": "t_grass",
+				"~": "t_grass",
+				"t": "t_floor",
+				"B": "t_floor",
+				"a": "t_floor",
+				",": "t_floor",
+				"1": "t_floor",
+				"2": "t_floor",
+				"F": "t_floor",
+				"L": "t_floor",
+				"S": "t_floor",
+				"E": "t_floor",
+				"T": "t_tree",
+				"Y": "t_tree_young",
+				"A": "t_tree_willow",
+				"P": "t_tree_cherry",
+				"x": "t_sidewalk",
+				"D": "t_door_locked_peep",
+				"X": "t_chaingate_l",
+				"s": "t_sidewalk",
+				"G": "t_curtains",
+				"z": "t_wall_wood",
+				"W": "t_brick_wall"
+			},
+			"furniture": {
+				"S": "f_woodstove",
+				"E": "f_armchair",
+				"B": "f_bookcase",
+				"2": "f_chair",
+				"1": "f_desk",
+				"F": "f_fridge",
+				"a": "f_sink",
+				"t": "f_toilet",
+				"L": "f_locker",
+				"p": "f_mutpoppy",
+				"~": "f_dahlia",
+				"o": "f_datura",
+				"d": "f_dandelion",
+				"f": "f_bluebell",
+				"@": "f_dumpster",
+				"s": "f_bulletin"
+			},
+			"toilets": {
+				"t": {}
+			},
+			"place_vehicles":[
+				{ "vehicle": "bicycle", "x": 2, "y": 2, "rotation":0, "chance": 50  }
+			],
+			"place_items":[
+				{ "item": "trash_forest", "chance": 60, "x": [17,19], "y": [19,21] },
+                { "item": "trash", "chance": 60, "x": [4,5], "y": [8,11] },
+				{ "item": "trash", "chance": 60, "x": [6,15], "y": [10,15] },
+				{ "item": "trash_forest", "chance": 60, "x": [17,19], "y": [19,21] },
+				{ "item": "trash", "chance": 60, "x": [4,5], "y": [8,11] },
+				{ "item": "trash", "chance": 60, "x": [6,15], "y": [10,15] },
+				
+                { "item": "trash_forest", "chance": 60, "x": 9, "y": 21 },
+				{ "item": "trash_forest", "chance": 60, "x": 10, "y": 21 },
+                { "item": "trash", "chance": 60, "x": 9, "y": 21 },
+				{ "item": "trash", "chance": 60, "x": 10, "y": 21 },
+                { "item": "trash_forest", "chance": 60, "x": 9, "y": 21 },
+                { "item": "trash_forest", "chance": 60, "x": 10, "y": 21 },
+                { "item": "trash", "chance": 60, "x": 9, "y": 21 },
+                { "item": "trash", "chance": 60, "x": 10, "y": 21 }
+			]
+		}
+	}
+]
