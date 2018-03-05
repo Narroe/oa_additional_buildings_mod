@@ -1,67 +1,67 @@
 [
-	{
-		"type"  : "item_group",
-		"id"    : "os_items",
-		"items" : [
-			["flashlight",20],
-			["gloves_rubber",20],
-			["boots_rubber",20],
-			["hat_hard",20]
-		]
-	},
-	{
-		"type": "mapgen",
-		"method": "json",
-		"om_terrain": [ "s_open_sewer" ],
-		"weight": 1000,
-		"object": {
-			"rows": [
-				"....,..,,,.........,,,..",
-				"..,,,....xxxxx..,,..,,..",
-				"..xxxxx..,,..,,...xxxx.,",
-				".,.,....,,,,...,...,...,",
-				".,.,,,.,.0...0.,......,,",
-				".xx....,.0...0..ssssss..",
-				",..s0ss..0wss0.....r.s..",
-				"x..s0,.,.0www00w.rrrr..x",
-				"x..spwwww0wwww0wwrrrrr.x",
-				"x..s.wwwwpwwww0wwwwwrr.x",
-				"x.s.wwww1wwwww000wwww..x",
-				",...wwwwwwwwww1wpwwwws.x",
-				",,rrrwwwwwwwwwwwwwwws,..",
-				"xrrrr.wwwwwwwwwwwwsss.,,",
-				"x.r.rwwwwwwwwwwwwss.r.,.",
-				"x..wwwww1wwpwwwp00rrr.x.",
-				",.swwpwwwww0wwwwr0.r..x,",
-				".,.s.0sssww0wwwr.0ss..x,",
-				"x..,.0,.ssw0rrrr.0......",
-				"x....0..,.w0..r..0..x.,,",
-				"x..,.0.,,..0.rrr....x..,",
-				"x,.,.0.,.,.0....,,,.x...",
-				",,,..0..,,.xxx..,...,,,,",
-				".,xxx...xx.,,.,,.xxx.,,."
-			],
-			"terrain": {
-				".": "t_dirt",
-				",": "t_grass",
-				"0": "t_sewage_pipe",
-				"w": "t_sewage",
-				"p": "t_sewage_pump",
-				"x": "t_dirt",
-				"r": "t_dirt",
-				"s": "t_dirt",
-				"S": "t_dirt",
-				"1": "t_sewage"
-			},
-			"furniture":{
-				"x": "f_barricade_road",
-				"r": "f_rubble",
-				"s": "f_sandbag_half",
-				"S": "f_sandbag_wall"
-			},
-			"items": {
-				"1": { "item": "os_items", "chance": 30 }
-			}
-		}
-	}
+    {
+        "type"  : "item_group",
+        "id"    : "os_items",
+        "items" : [
+            ["flashlight",20],
+            ["gloves_rubber",20],
+            ["boots_rubber",20],
+            ["hat_hard",20]
+        ]
+    },
+    {
+        "type": "mapgen",
+        "method": "json",
+        "om_terrain": [ "s_open_sewer" ],
+        "weight": 1000,
+        "object": {
+            "rows": [
+                "....,..,,,.........,,,..",
+                "..,,,....xxxxx..,,..,,..",
+                "..xxxxx..,,..,,...xxxx.,",
+                ".,.,....,,,,...,...,...,",
+                ".,.,,,.,.0...0.,......,,",
+                ".xx....,.0...0..ssssss..",
+                ",..s0ss..0wss0.....r.s..",
+                "x..s0,.,.0www00w.rrrr..x",
+                "x..spwwww0wwww0wwrrrrr.x",
+                "x..s.wwwwpwwww0wwwwwrr.x",
+                "x.s.wwww1wwwww000wwww..x",
+                ",...wwwwwwwwww1wpwwwws.x",
+                ",,rrrwwwwwwwwwwwwwwws,..",
+                "xrrrr.wwwwwwwwwwwwsss.,,",
+                "x.r.rwwwwwwwwwwwwss.r.,.",
+                "x..wwwww1wwpwwwp00rrr.x.",
+                ",.swwpwwwww0wwwwr0.r..x,",
+                ".,.s.0sssww0wwwr.0ss..x,",
+                "x..,.0,.ssw0rrrr.0......",
+                "x....0..,.w0..r..0..x.,,",
+                "x..,.0.,,..0.rrr....x..,",
+                "x,.,.0.,.,.0....,,,.x...",
+                ",,,..0..,,.xxx..,...,,,,",
+                ".,xxx...xx.,,.,,.xxx.,,."
+            ],
+            "terrain": {
+                ".": "t_dirt",
+                ",": "t_grass",
+                "0": "t_sewage_pipe",
+                "w": "t_sewage",
+                "p": "t_sewage_pump",
+                "x": "t_dirt",
+                "r": "t_dirt",
+                "s": "t_dirt",
+                "S": "t_dirt",
+                "1": "t_sewage"
+            },
+            "furniture":{
+                "x": "f_barricade_road",
+                "r": "f_rubble",
+                "s": "f_sandbag_half",
+                "S": "f_sandbag_wall"
+            },
+            "items": {
+                "1": { "item": "os_items", "chance": 30 }
+            }
+        }
+    }
 ]
