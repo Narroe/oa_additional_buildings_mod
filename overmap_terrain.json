@@ -102,10 +102,10 @@
   
   {
     "type" : "overmap_terrain",
-    "id" : "ws_watch_tower_base",
-    "name" : "watch tower",
+    "id" : "ws_fire_lookout_tower_base",
+    "name" : "fire lookout tower",
     "sym" : 84,
-    "color" : "brown",
+    "color" : "red",
     "see_cost" : 5,
     "extras" : "build",
     "mondensity" : 2,
@@ -113,10 +113,10 @@
   },
   {
     "type" : "overmap_terrain",
-    "id" : "ws_watch_tower_f1",
-    "name" : "watch tower",
+    "id" : "ws_fire_lookout_tower_f1",
+    "name" : "fire lookout tower",
     "sym" : 84,
-    "color" : "brown",
+    "color" : "red",
     "see_cost" : 5,
     "extras" : "build",
     "mondensity" : 2,
@@ -124,10 +124,10 @@
   },
   {
     "type" : "overmap_terrain",
-    "id" : "ws_watch_tower_f2",
-    "name" : "watch tower",
+    "id" : "ws_fire_lookout_tower_f2",
+    "name" : "fire lookout tower",
     "sym" : 84,
-    "color" : "brown",
+    "color" : "red",
     "see_cost" : 5,
     "extras" : "build",
     "mondensity" : 2,
@@ -135,10 +135,10 @@
   },
   {
     "type" : "overmap_terrain",
-    "id" : "ws_watch_tower_f3",
-    "name" : "watch tower",
+    "id" : "ws_fire_lookout_tower_f3",
+    "name" : "fire lookout tower",
     "sym" : 84,
-    "color" : "brown",
+    "color" : "red",
     "see_cost" : 5,
     "extras" : "build",
     "mondensity" : 2,
@@ -166,7 +166,7 @@
     "see_cost" : 5,
     "extras" : "build",
     "mondensity" : 2,
-    "flags" : [  ]
+    "flags" : [ "SIDEWALK" ]
   },
   {
     "type" : "overmap_terrain",
@@ -177,7 +177,7 @@
     "see_cost" : 5,
     "extras" : "build",
     "mondensity" : 2,
-    "flags" : [  ]
+    "flags" : [ "SIDEWALK" ]
   },
   {
     "type" : "overmap_terrain",
@@ -188,7 +188,7 @@
     "see_cost" : 5,
     "extras" : "build",
     "mondensity" : 2,
-    "flags" : [  ]
+    "flags" : [ "SIDEWALK" ]
   },
   {
     "type" : "overmap_terrain",
@@ -196,6 +196,184 @@
     "name" : "car dealership",
     "sym" : 99,
     "color" : "i_cyan",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [ "SIDEWALK" ]
+  },
+
+
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_0_0",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_1_0",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_2_0",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_3_0",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_0_1",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_1_1",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_2_1",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_3_1",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_0_2",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_1_2",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_2_2",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_3_2",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_0_3",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_1_3",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_2_3",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "build",
+    "mondensity" : 2,
+    "flags" : [  ]
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "ws_regional_dump_3_3",
+    "name" : "regional dump",
+    "sym" : 100,
+    "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "build",
     "mondensity" : 2,
