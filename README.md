@@ -6,7 +6,7 @@ Please use the latest relased version as that would definitely run.
 
 Current version:
 
-    Adds 10 more buildings into the game, including 2 multiple Z-level buildings.
+    Adds 15 buildings to the game.
 
 contents:
 
@@ -19,13 +19,17 @@ City buildings/structures:
     open sewer
     private park
     sex shop
+    car showroom
+    car dealership
+    public art piece
+    public space
 		
 Outer buildings/structures:
     
     hunter's camp
     giant sinkhole (2 Z-levels)
-    watch tower (3 Z-levels)
-
+    fire lookout tower (3 Z-levels)
+    regional dump (4x4)
 
 Notes: 
 
