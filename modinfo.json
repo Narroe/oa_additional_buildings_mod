@@ -4,7 +4,7 @@
     "ident": "oa_additional_buildings_mod",
     "name": "Oa's Additional Buildings mod",
     "authors": [ "Oa" ],
-    "description": "Adds 10 more buildings into the game, including 2 multiple Z-level buildings. (for a full list see readme)",
+    "description": "Adds more buildings into the game, (for a full list see readme)",
     "category": "buildings",
     "dependencies": [ "dda" ]
   }
