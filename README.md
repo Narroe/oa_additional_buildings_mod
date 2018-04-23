@@ -36,7 +36,7 @@ Notes:
     If you wish to prevent any one building from generating,
     find it in either "overmap_specials.json" and set it's '"occurrences":'
     stat to "[0,0]". Alternatively, find the building in "regional_overlay.json"
-    and change it's respective "city" stat to zero; (e.g. '"s_open_sewer": 0,')
+    and change it's respective "city" stat to zero; (e.g. '"cs_open_sewer": 0,')
 		
     Although I have attempted to balance these buildings' (item drops and monster spawns),
     it is difficult to gauge whether or not they are balanced relative to the rest of the game.
