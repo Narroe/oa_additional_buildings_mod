@@ -6,7 +6,7 @@
     "sym" : 97,
     "color" : "brown_green",
     "see_cost" : 5,
-    "extras" : "buil`d",
+    "extras" : "build",
     "mondensity" : 2,
     "flags" : [ "SIDEWALK" ]
   },
