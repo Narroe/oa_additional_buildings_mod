@@ -213,7 +213,7 @@
         "D": "t_door_locked_interior",
         "<": "t_ladder_up",
         ">": "t_ladder_down",
-        "u": "t_utility_light",
+        "u": "t_floor",
         
         "S": "t_floor",
         "B": "t_floor",
