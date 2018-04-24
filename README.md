@@ -1,7 +1,7 @@
 Oa's additional buildings mod
 
 NOTE: This development version of the mod may or may not run; depending on what is currently being worked on.
-Please use the latest relased version as that would definitely run.
+Please use the latest released version as that would definitely run.
 
 
 Current version:
