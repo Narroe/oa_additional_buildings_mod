@@ -71,7 +71,7 @@
     {
         "type": "mapgen",
         "method": "json",
-        "om_terrain": [ "s_sex_shop" ],
+        "om_terrain": [ "cs_sex_shop" ],
         "weight": 1000,
         "object": {
             "rows": [

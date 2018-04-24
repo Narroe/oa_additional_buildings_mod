@@ -50,7 +50,7 @@
     {
         "type": "mapgen",
         "method": "json",
-        "om_terrain": [ "oa_hunter_camp" ],
+        "om_terrain": [ "ws_hunter_camp" ],
         "weight": 1000,
         "object": {
             "rows": [

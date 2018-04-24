@@ -12,7 +12,7 @@
     {
         "type": "mapgen",
         "method": "json",
-        "om_terrain": [ "s_open_sewer" ],
+        "om_terrain": [ "cs_open_sewer" ],
         "weight": 1000,
         "object": {
             "rows": [

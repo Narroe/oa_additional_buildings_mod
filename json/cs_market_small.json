@@ -131,7 +131,7 @@
     {
         "type": "mapgen",
         "method": "json",
-        "om_terrain": [ "s_market_small" ],
+        "om_terrain": [ "cs_market_small" ],
         "weight": 1000,
         "object": {
             "rows": [

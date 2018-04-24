@@ -16,7 +16,7 @@
     },
     {
         "type": "mapgen",
-        "om_terrain": ["s_gardening_allotment"],
+        "om_terrain": ["cs_gardening_allotment"],
         "method": "json",
         "weight": 1000,
         "object": {

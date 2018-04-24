@@ -10,7 +10,7 @@
     {
         "type": "mapgen",
         "method": "json",
-        "om_terrain": [ "giant_sinkhole_1" ],
+        "om_terrain": [ "ws_giant_sinkhole_1" ],
         "weight": 1000,
         "object": {
             "rows": [
@@ -55,7 +55,7 @@
     {
         "type": "mapgen",
         "method": "json",
-        "om_terrain": [ "giant_sinkhole_2" ],
+        "om_terrain": [ "ws_giant_sinkhole_2" ],
         "weight": 1000,
         "object": {
             "rows": [
