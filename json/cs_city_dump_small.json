@@ -104,7 +104,7 @@
         "z": "f_bulletin"
       },
       "place_vehicles": [
-        { "vehicle": "pickup", "x": 11, "y": 5, "rotation": 270, "chance": 15  },
+        { "vehicle": "pickup", "x": 11, "y": 5, "rotation": 270, "chance": 30  },
         { "vehicle": "bicycle", "x": 5, "y": 3, "rotation": 0, "chance": 40  }
       ],
       "items":{
@@ -113,7 +113,7 @@
         "3": { "item": "trash_forest", "chance": 80 }
       },
       "place_signs": [
-        { "signage": "City Dump", "x": 8, "y": 1 }
+        { "signage": "Municipal City Dump", "x": 8, "y": 1 }
       ]
     }    
   }
