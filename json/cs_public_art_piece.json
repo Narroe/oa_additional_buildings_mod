@@ -41,7 +41,7 @@
       "terrain": {
         ".": "t_grass",
         ",": "t_dirt",
-        "+": "t_floor_waxed",
+        "+": "t_floor",
         "X": "t_pavement",
         "O": "t_sidewalk",
 
