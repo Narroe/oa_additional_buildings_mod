@@ -201,6 +201,17 @@
     "mondensity": 2,
     "flags": ["SIDEWALK"]
   },
+  {
+    "type": "overmap_terrain",
+    "id": "cs_tire_shop",
+    "name": "tire shop",
+    "sym": 79,
+    "color": "white",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2,
+    "flags": ["SIDEWALK"]
+  },
 
 
   {
