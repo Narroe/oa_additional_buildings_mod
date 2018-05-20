@@ -12,23 +12,23 @@ contents:
 
 City buildings/structures:
     
+    car dealership
+    car showroom
     city dump (small)
     gardening allotment
     internet cafe
-    outdoor market (small)
+    market (small)
     open sewer
     private park
-    sex shop
-    car showroom
-    car dealership
     public art piece
     public space
+    sex shop
 		
 Outer buildings/structures:
     
-    hunter's camp
-    giant sinkhole (2 Z-levels)
     fire lookout tower (3 Z-levels)
+    giant sinkhole (2 Z-levels)
+    hunter's camp
     regional dump (4x4)
 
 Notes: 
