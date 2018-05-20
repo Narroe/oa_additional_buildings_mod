@@ -176,13 +176,13 @@
         "v": "f_vending_c"
       },
       "place_vehicles": [
-        {"vehicle": "oa_vg_cd_vehicles", "x": 4, "y": 5, "rotation": 270, "chance": 100, "fuel": 0},
-        {"vehicle": "oa_vg_cd_vehicles", "x": 11, "y": 5, "rotation": 270, "chance": 100, "fuel": 0},
-        {"vehicle": "oa_vg_cd_vehicles", "x": 18, "y": 5, "rotation": 270, "chance": 100, "fuel": 0},
-        {"vehicle": "oa_vg_cd_vehicles", "x": 18, "y": 15, "rotation": 270, "chance": 100, "fuel": 0}
+        {"vehicle": "oa_vg_cd_vehicles", "x": 4, "y": 5, "rotation": 270, "chance": 70, "fuel": 0},
+        {"vehicle": "oa_vg_cd_vehicles", "x": 11, "y": 5, "rotation": 270, "chance": 70, "fuel": 0},
+        {"vehicle": "oa_vg_cd_vehicles", "x": 18, "y": 5, "rotation": 270, "chance": 70, "fuel": 0},
+        {"vehicle": "oa_vg_cd_vehicles", "x": 18, "y": 15, "rotation": 270, "chance": 70, "fuel": 0}
       ],
       "items": {
-        "s": {"item": "oa_discarded_news", "chance": 10},
+        "s": {"item": "oa_discarded_news", "chance": 20},
         "c": {"item": "oa_custom_trash", "chance": 70},
         "#": {"item": "oa_custom_trash", "chance": 60},
         "d": {"item": "oa_ig_cd_desks", "chance": 70},
