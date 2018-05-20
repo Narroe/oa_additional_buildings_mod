@@ -2,10 +2,10 @@
   {
     "type": "region_overlay",
     "id": "oa_additional_buildings_overlay",
-    "regions": [ "all" ],
+    "regions": ["all"],
     "city": { 
       "shops": {
-        "//":"to remove any buildings from generating: set to 0",
+        "//": "to remove any buildings from generating: set to 0",
         "cs_car_dealership": 1,
         "cs_car_showroom": 1,
         "cs_city_dump_small": 1,

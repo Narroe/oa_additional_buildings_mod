@@ -4,11 +4,11 @@
     "name": "DUMP_ZOMBIES",
     "default": "mon_zombie_crawler",
     "monsters": [
-      { "monster": "mon_zombie_technician", "freq" : 150, "cost_multiplier" : 1 },
-      { "monster": "mon_zombie_gasbag", "freq" : 150, "cost_multiplier" : 1 },
-      { "monster": "mon_zombie_crawler", "freq" : 100, "cost_multiplier" : 1 },
-      { "monster": "mon_zombie_survivor", "freq" : 70, "cost_multiplier" : 1 },
-      { "monster": "mon_zombie_hulk", "freq" : 50, "cost_multiplier" : 1 }
+      {"monster": "mon_zombie_technician", "freq": 150, "cost_multiplier": 1},
+      {"monster": "mon_zombie_gasbag", "freq": 150, "cost_multiplier": 1},
+      {"monster": "mon_zombie_crawler", "freq": 100, "cost_multiplier": 1},
+      {"monster": "mon_zombie_survivor", "freq": 70, "cost_multiplier": 1},
+      {"monster": "mon_zombie_hulk", "freq": 50, "cost_multiplier": 1}
     ]
   },
   {
@@ -16,31 +16,31 @@
     "name": "DUMP_ANIMALS",
     "default": "mon_null",
     "monsters": [
-      { "monster": "mon_fly", "freq" : 100, "cost_multiplier" : 1 },
-      { "monster": "mon_crow", "freq" : 100, "cost_multiplier" : 1 },
-      { "monster": "mon_fox_gray", "freq" : 15, "cost_multiplier" : 1 },
-      { "monster": "mon_fox_red", "freq" : 15, "cost_multiplier" : 1 },
-      { "monster": "mon_dog", "freq" : 15, "cost_multiplier" : 2 },
-      { "monster": "mon_black_rat", "freq" : 100, "cost_multiplier" : 1 },
-      { "monster": "mon_opossum", "freq" : 15, "cost_multiplier" : 1 },
-      { "monster": "mon_raccoon", "freq" : 15, "cost_multiplier" : 1 },
-      { "monster": "mon_rattlesnake", "freq" : 10, "cost_multiplier" : 1 },
-      { "monster": "mon_rattlesnake_giant", "freq" : 5, "cost_multiplier" : 2 },
-      { "monster": "mon_worm", "freq" : 20, "cost_multiplier" : 1 },
-      { "monster": "mon_wasp", "freq" : 10, "cost_multiplier" : 1 }
+      {"monster": "mon_fly", "freq": 100, "cost_multiplier": 1},
+      {"monster": "mon_crow", "freq": 100, "cost_multiplier": 1},
+      {"monster": "mon_fox_gray", "freq": 15, "cost_multiplier": 1},
+      {"monster": "mon_fox_red", "freq": 15, "cost_multiplier": 1},
+      {"monster": "mon_dog", "freq": 15, "cost_multiplier": 2},
+      {"monster": "mon_black_rat", "freq": 100, "cost_multiplier": 1},
+      {"monster": "mon_opossum", "freq": 15, "cost_multiplier": 1},
+      {"monster": "mon_raccoon", "freq": 15, "cost_multiplier": 1},
+      {"monster": "mon_rattlesnake", "freq": 10, "cost_multiplier": 1},
+      {"monster": "mon_rattlesnake_giant", "freq": 5, "cost_multiplier": 2},
+      {"monster": "mon_worm", "freq": 20, "cost_multiplier": 1},
+      {"monster": "mon_wasp", "freq": 10, "cost_multiplier": 1}
     ]
   },
   {
     "type": "item_group",
     "id": "oa_ig_rd_desks",
     "items": [
-      ["battery",30],
-      ["radio",10],
-      ["eyedrops",10],
-      ["rag",30],
-      ["paper",30],
-      ["foon",30],
-      ["spork",30],
+      ["battery", 30],
+      ["radio", 10],
+      ["eyedrops", 10],
+      ["rag", 30],
+      ["paper", 30],
+      ["foon", 30],
+      ["spork", 30],
       ["cell_phone", 10],
       ["file", 40],
       ["mag_mechanics", 20],
@@ -87,20 +87,20 @@
     "type": "item_group",
     "id": "oa_ig_rd_lockers",
     "items": [
-      ["battery",10],
-      ["radio",10],
-      ["rag",30],
-      ["flashlight",20],
-      ["heavy_flashlight",10],
-      ["jumper_cable",20],
-      ["jumper_cable_heavy",10],
-      ["pliers",10],
-      ["battery_motorbike",10],
-      ["battery_car",10],
-      ["stereo",10],
-      ["wrench",10],
-      ["screwdriver",15],
-      ["superglue",5],
+      ["battery", 10],
+      ["radio", 10],
+      ["rag", 30],
+      ["flashlight", 20],
+      ["heavy_flashlight", 10],
+      ["jumper_cable", 20],
+      ["jumper_cable_heavy", 10],
+      ["pliers", 10],
+      ["battery_motorbike", 10],
+      ["battery_car", 10],
+      ["stereo", 10],
+      ["wrench", 10],
+      ["screwdriver", 15],
+      ["superglue", 5],
       ["boots", 70],
       ["boots_steel", 50],
       ["boots_hiking", 10],
@@ -119,7 +119,7 @@
       ["battery", 50],
       ["flashlight", 40],
       ["boots_rubber", 20],
-      ["toolbox", 1],
+      ["toolbox", 5],
       ["apron_leather", 10]
     ]
   },
@@ -127,8 +127,8 @@
     "type": "item_group",
     "id": "oa_ig_rd_electronic_trash",
     "items": [
-      ["battery",10],
-      ["solar_panel",15],
+      ["battery", 10],
+      ["solar_panel", 15],
       ["jumper_cable", 5],
       ["pipe", 20],
       ["stereo", 6],
@@ -144,7 +144,7 @@
     "type": "item_group",
     "id": "oa_ig_rd_metal_trash",
     "items": [
-      {"item":"scrap","prob":100, "count-min": 1, "count-max": 10 },
+      {"item":"scrap","prob":100, "count-min": 1, "count-max": 10},
       ["muffler", 30],
       ["pipe", 20],
       ["motor", 2],
@@ -184,7 +184,7 @@
     "type": "item_group",
     "id": "oa_ig_rd_glass_trash",
     "items": [
-      {"item":"glass_shard","prob":100, "count-min": 1, "count-max": 20 },
+      {"item":"glass_shard","prob":100, "count-min": 1, "count-max": 20},
       ["bottle_glass", 30],
       ["jar_glass", 20],
       ["jar_3l_glass", 10]
@@ -193,7 +193,7 @@
   {
     "type": "vehicle_group",
     "id": "oa_vg_wreck",
-    "vehicles" : [
+    "vehicles": [
       ["car", 1000],
       ["electric_car", 500],
       ["suv", 800],
@@ -268,7 +268,7 @@
       "furniture": {
       },
       "items":{
-        ".": { "item": "trash", "chance": 5}
+        ".": {"item": "trash", "chance": 5}
       },
       "place_vehicles":[
         {"vehicle": "flatbed_truck", "x": 8, "y": 9, "rotation": 180, "chance": 10},
@@ -281,7 +281,7 @@
         {"vehicle": "flatbed_truck", "x": 14, "y": 19, "rotation": 0, "chance": 10}
       ],
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12}
       ]
     }
   },
@@ -329,14 +329,14 @@
       "furniture": {
       },
       "items":{
-        ".": { "item": "trash", "chance": 5}
+        ".": {"item": "trash", "chance": 5}
       },
       "place_vehicles": [
-        { "vehicle": "flatbed_truck", "x": 13, "y": 21, "rotation": 180, "chance": 10 },
-        { "vehicle": "flatbed_truck", "x": 19, "y": 19, "rotation": 0, "chance": 10 }
+        {"vehicle": "flatbed_truck", "x": 13, "y": 21, "rotation": 180, "chance": 10},
+        {"vehicle": "flatbed_truck", "x": 19, "y": 19, "rotation": 0, "chance": 10}
       ],
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12}
       ]
     }
   },
@@ -384,8 +384,8 @@
         "r": "t_dirt",
         "X": "t_dirt"
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5}
+      "items": {
+        ".": {"item": "trash", "chance": 5}
       },
       "furniture": {
         "r": "f_rubble_rock",
@@ -452,15 +452,15 @@
         "L": "f_locker",
         "d": "f_desk"
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "S": { "item": "oa_discarded_news", "chance": 20},
-        "d": { "item": "oa_ig_rd_desks", "chance": 20},
-        "L": { "item": "oa_ig_rd_lockers", "chance": 90}
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "S": {"item": "oa_discarded_news", "chance": 20},
+        "d": {"item": "oa_ig_rd_desks", "chance": 20},
+        "L": {"item": "oa_ig_rd_lockers", "chance": 90}
       },
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12},
-        { "monster": "DUMP_ZOMBIES", "x": 17, "y": 10}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12},
+        {"monster": "DUMP_ZOMBIES", "x": 17, "y": 10}
       ]
     }
   },
@@ -507,23 +507,23 @@
       },
       "furniture": {
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5}
+      "items": {
+        ".": {"item": "trash", "chance": 5}
       },
       "place_vehicles": [
-        { "vehicle": "flatbed_truck", "x": 8, "y": 3, "rotation": 180, "chance": 10 },
-        { "vehicle": "flatbed_truck", "x": 14, "y": 1, "rotation": 0, "chance": 10 },
+        {"vehicle": "flatbed_truck", "x": 8, "y": 3, "rotation": 180, "chance": 10},
+        {"vehicle": "flatbed_truck", "x": 14, "y": 1, "rotation": 0, "chance": 10},
 
-        { "vehicle": "flatbed_truck", "x": 8, "y": 9, "rotation": 180, "chance": 10 },
-        { "vehicle": "flatbed_truck", "x": 14, "y": 7, "rotation": 0, "chance": 10 },
+        {"vehicle": "flatbed_truck", "x": 8, "y": 9, "rotation": 180, "chance": 10},
+        {"vehicle": "flatbed_truck", "x": 14, "y": 7, "rotation": 0, "chance": 10},
 
 
-        { "vehicle": "flatbed_truck", "x": 15, "y": 16, "rotation": 0, "chance": 100 },
-        { "vehicle": "flatbed_truck", "x": 20, "y": 20, "rotation": 0, "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": 17, "y": 20, "rotation": 180, "chance": 100 }
+        {"vehicle": "flatbed_truck", "x": 15, "y": 16, "rotation": 0, "chance": 100},
+        {"vehicle": "flatbed_truck", "x": 20, "y": 20, "rotation": 0, "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": 17, "y": 20, "rotation": 180, "chance": 100}
       ],
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12}
       ]
     }
   },
@@ -600,21 +600,21 @@
         "t": "f_toilet",
         "d": "f_dumpster"
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "B": { "item": "oa_custom_trash", "chance": 15},
-        "1": { "item": "oa_ig_rd_electronic_trash", "chance": 10},
-        "2": { "item": "trash", "chance": 10},
-        "3": { "item": "oa_ig_rd_metal_trash", "chance": 10},
-        "W": { "item": "allclothes", "chance": 5},
-        "D": { "item": "allclothes", "chance": 5}
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "B": {"item": "oa_custom_trash", "chance": 15},
+        "1": {"item": "oa_ig_rd_electronic_trash", "chance": 10},
+        "2": {"item": "trash", "chance": 10},
+        "3": {"item": "oa_ig_rd_metal_trash", "chance": 10},
+        "W": {"item": "allclothes", "chance": 5},
+        "D": {"item": "allclothes", "chance": 5}
       },
       "place_vehicles": [
-        { "vehicle": "flatbed_truck", "x": 13, "y": 3, "rotation": 180, "chance": 10 },
-        { "vehicle": "flatbed_truck", "x": 19, "y": 1, "rotation": 0, "chance": 10 },
+        {"vehicle": "flatbed_truck", "x": 13, "y": 3, "rotation": 180, "chance": 10},
+        {"vehicle": "flatbed_truck", "x": 19, "y": 1, "rotation": 0, "chance": 10},
 
-        { "vehicle": "flatbed_truck", "x": 13, "y": 9, "rotation": 180, "chance": 10 },
-        { "vehicle": "flatbed_truck", "x": 19, "y": 7, "rotation": 0, "chance": 10 }
+        {"vehicle": "flatbed_truck", "x": 13, "y": 9, "rotation": 180, "chance": 10},
+        {"vehicle": "flatbed_truck", "x": 19, "y": 7, "rotation": 0, "chance": 10}
       ],
       "place_monsters": [
         { "monster": "DUMP_ANIMALS", "x": 12, "y": 12}
@@ -666,13 +666,13 @@
       "furniture": {
         "X": "f_barricade_road"
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5}
+      "items": {
+        ".": {"item": "trash", "chance": 5}
       }
     },
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12},
-        { "monster": "DUMP_ZOMBIES", "x": 12, "y": 20}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12},
+        {"monster": "DUMP_ZOMBIES", "x": 12, "y": 20}
       ]
   },
 
@@ -723,14 +723,14 @@
         "R": "f_rubble",
         "w": "f_wreckage"
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "r": { "item": "oa_ig_rd_metal_trash", "chance": 5},
-        "R": { "item": "oa_ig_rd_metal_trash", "chance": 5},
-        "w": { "item": "oa_ig_rd_metal_trash", "chance": 45}
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "r": {"item": "oa_ig_rd_metal_trash", "chance": 5},
+        "R": {"item": "oa_ig_rd_metal_trash", "chance": 5},
+        "w": {"item": "oa_ig_rd_metal_trash", "chance": 45}
       },
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12}
       ]
     }
   },
@@ -780,22 +780,22 @@
       },
       "furniture": {
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "^": { "item": "trash", "chance": 2},
-        "g": { "item": "oa_ig_rd_glass_trash", "chance": 10},
-        "G": { "item": "oa_ig_rd_glass_trash", "chance": 5}
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "^": {"item": "trash", "chance": 2},
+        "g": {"item": "oa_ig_rd_glass_trash", "chance": 10},
+        "G": {"item": "oa_ig_rd_glass_trash", "chance": 5}
       },
       "place_vehicles": [
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 }
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100}
       ],
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12}
       ]
     }
   },
@@ -854,25 +854,25 @@
         "D": "f_dryer",
         "W": "f_washer"
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "^": { "item": "trash", "chance": 2},
-        "g": { "item": "oa_ig_rd_glass_trash", "chance": 10},
-        "G": { "item": "oa_ig_rd_glass_trash", "chance": 5},
-        "W": { "item": "allclothes", "chance": 5},
-        "D": { "item": "allclothes", "chance": 5}
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "^": {"item": "trash", "chance": 2},
+        "g": {"item": "oa_ig_rd_glass_trash", "chance": 10},
+        "G": {"item": "oa_ig_rd_glass_trash", "chance": 5},
+        "W": {"item": "allclothes", "chance": 5},
+        "D": {"item": "allclothes", "chance": 5}
       },
       "place_vehicles": [
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 }
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100}
       ],
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12},
-        { "monster": "DUMP_ZOMBIES", "x": 13, "y": 15}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12},
+        {"monster": "DUMP_ZOMBIES", "x": 13, "y": 15}
       ]
     }
   },
@@ -922,11 +922,11 @@
       "furniture": {
         "a": "f_ash"
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "^": { "item": "trash", "chance": 3 },
-        "p": { "item": "trash", "chance": 5 },
-        "a": { "item": "trash", "chance": 15 }
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "^": {"item": "trash", "chance": 3},
+        "p": {"item": "trash", "chance": 5},
+        "a": {"item": "trash", "chance": 15}
       },
       "place_vehicles": [
         { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
@@ -995,22 +995,22 @@
         "w": "f_wreckage",
         "a": "f_ash"
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "^": { "item": "trash", "chance": 3 },
-        "p": { "item": "trash", "chance": 5 },
-        "a": { "item": "trash", "chance": 15 }
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "^": {"item": "trash", "chance": 3},
+        "p": {"item": "trash", "chance": 5},
+        "a": {"item": "trash", "chance": 15}
       },
       "place_vehicles": [
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100 }
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,16], "rotation": [0,90,180,270], "chance": 100}
       ],
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12}
       ]
     }
   },
@@ -1060,22 +1060,22 @@
       },
       "furniture": {
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "^": { "item": "trash", "chance": 2},
-        "g": { "item": "oa_ig_rd_glass_trash", "chance": 10},
-        "G": { "item": "oa_ig_rd_glass_trash", "chance": 5}
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "^": {"item": "trash", "chance": 2},
+        "g": {"item": "oa_ig_rd_glass_trash", "chance": 10},
+        "G": {"item": "oa_ig_rd_glass_trash", "chance": 5}
       },
       "place_vehicles": [
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 }
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [10,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100}
       ],
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12}
       ]
     }
   },
@@ -1125,23 +1125,23 @@
       },
       "furniture": {
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "^": { "item": "trash", "chance": 2},
-        "g": { "item": "oa_ig_rd_glass_trash", "chance": 10},
-        "G": { "item": "oa_ig_rd_glass_trash", "chance": 5}
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "^": {"item": "trash", "chance": 2},
+        "g": {"item": "oa_ig_rd_glass_trash", "chance": 10},
+        "G": {"item": "oa_ig_rd_glass_trash", "chance": 5}
       },
       "place_vehicles": [
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 }
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100}
       ],
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 5},
-        { "monster": "DUMP_ZOMBIES", "x": 12, "y": 12}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 5},
+        {"monster": "DUMP_ZOMBIES", "x": 12, "y": 12}
       ]
     }
   },
@@ -1191,23 +1191,23 @@
       "furniture": {
         "a": "f_ash"
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "^": { "item": "trash", "chance": 3 },
-        "p": { "item": "trash", "chance": 5 },
-        "a": { "item": "trash", "chance": 15 }
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "^": {"item": "trash", "chance": 3},
+        "p": {"item": "trash", "chance": 5},
+        "a": {"item": "trash", "chance": 15}
       },
       "place_vehicles": [
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 }
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,16], "y": [8,12], "rotation": [0,90,180,270], "chance": 100}
       ],
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 5},
-        { "monster": "DUMP_ZOMBIES", "x": 12, "y": 12}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 5},
+        {"monster": "DUMP_ZOMBIES", "x": 12, "y": 12}
       ]
     }
   },
@@ -1257,22 +1257,22 @@
       "furniture": {
         "a": "f_ash"
       },
-      "items":{
-        ".": { "item": "trash", "chance": 5},
-        "^": { "item": "trash", "chance": 3 },
-        "p": { "item": "trash", "chance": 5 },
-        "a": { "item": "trash", "chance": 15 }
+      "items": {
+        ".": {"item": "trash", "chance": 5},
+        "^": {"item": "trash", "chance": 3},
+        "p": {"item": "trash", "chance": 5},
+        "a": {"item": "trash", "chance": 15}
       },
       "place_vehicles": [
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 },
-        { "vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100 }
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100},
+        {"vehicle": "oa_vg_wreck", "x": [8,12], "y": [8,12], "rotation": [0,90,180,270], "chance": 100}
       ],
       "place_monsters": [
-        { "monster": "DUMP_ANIMALS", "x": 12, "y": 12}
+        {"monster": "DUMP_ANIMALS", "x": 12, "y": 12}
       ]
     }
   }

@@ -51,9 +51,9 @@
         "N": "f_bulletin",
         "f": "f_bluebell"
       },
-      "items":{
-        "D": { "item": "oa_custom_trash", "chance": 70 },
-        "b": { "item": "oa_discarded_news", "chance": 5 }
+      "items": {
+        "D": {"item": "oa_custom_trash", "chance": 70},
+        "b": {"item": "oa_discarded_news", "chance": 5}
       }
     }    
   }
