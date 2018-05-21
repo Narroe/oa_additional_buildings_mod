@@ -6,7 +6,7 @@ Please use the latest released version as that would definitely run.
 
 Current version:
 
-    Adds 15 buildings to the game.
+    Adds 16 buildings to the game.
 
 contents:
 
@@ -23,6 +23,7 @@ City buildings/structures:
     public art piece
     public space
     sex shop
+    tire shop
 		
 Outer buildings/structures:
     
