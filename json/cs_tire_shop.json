@@ -189,7 +189,10 @@
       ],
       "toilets": {
         "T": {}
-      }
+      },
+      "place_signs": [
+        {"signage": "Discount Tires", "x": 22, "y": 1}
+      ]
     }    
   }
 ]
