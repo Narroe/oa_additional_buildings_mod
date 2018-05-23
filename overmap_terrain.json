@@ -147,9 +147,9 @@
   
   {
     "type": "overmap_terrain",
-    "id": "ws_hunter_camp",
-    "name": "hunter's camp",
-    "sym": 104,
+    "id": "ws_survivor_camp",
+    "name": "survivor's camp",
+    "sym": 99,
     "color": "brown",
     "see_cost": 5,
     "extras": "build",
