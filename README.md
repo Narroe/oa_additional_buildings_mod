@@ -28,8 +28,8 @@ City buildings/structures:
 Outer buildings/structures:
     
     fire lookout tower (3 Z-levels)
-    giant sinkhole (2 Z-levels)
-    hunter's camp
+    giant sinkhole (2 Z-levels) [currently nixed]
+    survivor's camp
     regional dump (4x4)
 
 Notes: 
