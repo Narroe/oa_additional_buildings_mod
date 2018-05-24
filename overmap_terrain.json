@@ -147,6 +147,29 @@
   
   {
     "type": "overmap_terrain",
+    "id": "ws_survivor_bunker_f0",
+    "name": "survivor's bunker",
+    "sym": 98,
+    "color": "green",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2,
+    "flags": []
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ws_survivor_bunker_f-1",
+    "name": "survivor's bunker",
+    "sym": 98,
+    "color": "green",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2,
+    "flags": []
+  },
+  
+  {
+    "type": "overmap_terrain",
     "id": "ws_survivor_camp",
     "name": "survivor's camp",
     "sym": 99,
