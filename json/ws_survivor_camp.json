@@ -1,5 +1,17 @@
 [
   {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_SURVIVOR_CAMP",
+    "default": "mon_zombie_survivor",
+    "monsters": [
+      {"monster": "mon_zombie_survivor", "freq": 250, "cost_multiplier": 0},
+      {"monster": "mon_zombie_soldier", "freq": 100, "cost_multiplier": 2},
+      {"monster": "mon_zombie_dog", "freq": 100, "cost_multiplier": 0},
+      {"monster": "mon_dog_zombie_rot", "freq": 150, "cost_multiplier": 0},
+      {"monster": "mon_dog_zombie_cop", "freq": 100, "cost_multiplier": 0}
+    ]
+  },
+  {
     "type": "item_group",
     "id": "sc_loot_general",
     "items": [
@@ -111,7 +123,12 @@
       ],
       "traps": {
         "p": {"trap": "tr_spike_pit", "chance":70}
-      }
+      },
+      "place_monsters": [
+        {"monster": "GROUP_ZOMBIE_SURVIVOR_CAMP", "x": 11, "y": 10},
+        {"monster": "GROUP_ZOMBIE_SURVIVOR_CAMP", "x": 10, "y": 9},
+        {"monster": "GROUP_ZOMBIE_SURVIVOR_CAMP", "x": 12, "y": 8}
+      ]
     }
   }
 ]
