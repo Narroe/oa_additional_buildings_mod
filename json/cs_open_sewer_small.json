@@ -1,5 +1,14 @@
 [
   {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_SEWER",
+    "default": "mon_zombie_technician",
+    "monsters": [
+      {"monster": "mon_zombie_technician", "freq": 250, "cost_multiplier": 3},
+      {"monster": "mon_zombie_electric", "freq" : 150, "cost_multiplier": 5}
+    ]
+  },
+  {
     "type": "vehicle",
     "id": "oa_work_light",
     "name": "work light",
@@ -121,6 +130,9 @@
         {"vehicle": "os_work_vehicles", "chance": 30, "x": 5, "y": 19},
         {"vehicle": "os_work_vehicles", "chance": 30, "x": 13, "y": 17},
         {"vehicle": "os_work_vehicles", "chance": 30, "x": 6, "y": 7}
+      ],
+      "place_monsters": [
+        {"monster": "GROUP_ZOMBIE_SEWER", "x": 13, "y": 12}
       ],
       "place_signs": [
         {"signage": "Caution: Work in Progress", "x": 11, "y": 1}
