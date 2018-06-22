@@ -32,8 +32,8 @@ Outer buildings/structures:
     survivor's bunker (2 z-levels)
     survivor's camp
     regional dump (4x4)
-    cargo ship (2x4) (3 z-levels)
-    cruise ship (1x3) (2 z-levels)
+    cargo ship (1x3) (2 z-levels)
+    cruise ship (2x4) (3 z-levels)
 
 Notes: 
 
