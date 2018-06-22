@@ -6,7 +6,7 @@ Please use the latest released version as that would definitely run.
 
 Current version:
 
-    Adds 17 buildings to the game.
+    Adds 19 buildings to the game.
 
 contents:
 
@@ -27,11 +27,13 @@ City buildings/structures:
 		
 Outer buildings/structures:
     
-    fire lookout tower (3 Z-levels)
-    giant sinkhole (2 Z-levels) [currently nixed]
+    fire lookout tower (3 z-levels)
+    giant sinkhole (2 z-levels) [currently nixed]
     survivor's bunker (2 z-levels)
     survivor's camp
     regional dump (4x4)
+    cargo ship (2x4) (3 z-levels)
+    cruise ship (1x3) (2 z-levels)
 
 Notes: 
 
