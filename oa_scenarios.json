@@ -1,0 +1,25 @@
+[
+  {
+    "type" : "start_location",
+    "ident" : "cs_car_dealership",
+    "name" : "Car Dealership",
+    "target" : "cs_car_dealership"
+  },
+  {
+    "type" : "start_location",
+    "ident" : "cs_car_showroom",
+    "name" : "Car Showroom",
+    "target" : "cs_car_showroom"
+  },
+  { 
+    "type": "scenario",
+    "ident": "car_salesman",
+    "name": "Last day at the dealership",
+    "points" : -2,
+    "description": "After a long career of chasing sales quoters. The apocolypse happened! Now you have to utilise your sales skills and maybe \"borrow\" a company car to survive until tomorrow.",
+    "start_name": "Anywhere",
+    "allowed_locs": ["cs_car_dealership","cs_car_showroom"],
+    "professions" : ["salesman"],
+    "flags": ["CITY_START"]
+  }
+]
