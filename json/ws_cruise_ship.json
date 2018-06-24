@@ -573,7 +573,20 @@
         {"monster": "GROUP_ROACH", "x": 11, "y": 16},
 
         {"monster": "GROUP_ZOMBIE_CRUISE_SHIP_HALLWAYS", "chance": 2, "x": 0, "y": 13}
-      ]
+      ],
+      "computers": {
+        "6": {
+          "name": "Vault Security Terminal", 
+          "security": 2, 
+          "options": [
+            { "name": "Open Vault", "action": "unlock" } 
+          ], 
+          "failures": [
+            { "action": "shutdown" },
+            { "action": "alarm" }
+          ]
+        }
+      }
     }
   },
   {
