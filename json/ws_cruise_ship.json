@@ -577,9 +577,10 @@
       "computers": {
         "6": {
           "name": "Vault Security Terminal", 
-          "security": 2, 
+          "security": 3, 
           "options": [
-            { "name": "Open Vault", "action": "unlock" } 
+            { "name": "Unlock Vault", "action": "unlock" }, 
+            { "name": "Lock Vault", "action": "lock" } 
           ], 
           "failures": [
             { "action": "shutdown" },
@@ -1818,7 +1819,7 @@
         ".....                   ",
         ".....    ----ggggggggggg",
         ".....    |cCc'''''''''''",
-        ".....    |ch'''''cccCCCc",
+        ".....    |ch'''''cccC6Cc",
         ".....    |c''''''c''h'h'",
         ".....    g'''''''c'''h''",
         ".....    g'''''''Ch'''''",
@@ -1873,6 +1874,19 @@
         "V": "f_vending_c",
         "v": "f_vending_c",
         "t": "f_table"
+      },
+      "computers": {
+        "6": {
+          "name": "Ship Navigational Terminal", 
+          "security": 2, 
+          "options": [
+            { "name": "access satellite navigation map", "action": "maps" } 
+          ], 
+          "failures": [
+            { "action": "shutdown" },
+            { "action": "alarm" }
+          ]
+        }
       }
     }
   },
