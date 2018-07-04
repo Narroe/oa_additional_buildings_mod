@@ -35,6 +35,13 @@ Outer buildings/structures:
     cargo ship (1x3) (2 z-levels)
     cruise ship (2x4) (3 z-levels)
 
+Scenarios:
+
+    "Last day at the dealership"
+      car salesman start in either "Car Dealership" or "Car Showroom"
+    "Cruise of the Dead"
+      "Cruise Ship" start
+
 Notes: 
 
     If you wish to prevent any one building from generating,
